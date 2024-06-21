@@ -129,7 +129,7 @@ img{
 .pricing .pricing-grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    margin-top: 50px;
+    margin-top:50px;
     gap: 30px;
 }
 
@@ -157,6 +157,9 @@ img{
 
 .pricing .pricing-footer{
     margin: 30px 0;
+}
+.cards .pricing-card-body{
+    margin-right: 0px;
 }
 
 .faq{
@@ -262,6 +265,20 @@ img{
     margin: 20px 0;
 }
 
+
+/* About page */
+
+.main .container{
+    background: var(--light-color);
+    border-radius: 5%;
+}
+
+.main .container .body p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 
 
 
